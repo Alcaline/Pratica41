@@ -7,6 +7,7 @@ public class Circulo extends Elipse{
         super(r,r);
     }
     
+    @Override
     public double getPerimetro(){
         return 2*Math.PI*this.r;
     }
